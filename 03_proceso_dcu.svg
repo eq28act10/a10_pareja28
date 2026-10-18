@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1200 420">
+  <!-- Generator: Adobe Illustrator 29.8.11, SVG Export Plug-In . SVG Version: 2.1.1 Build 11)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #e2f3eb;
+      }
+
+      .st1 {
+        fill: #4a326b;
+        font-size: 30px;
+      }
+
+      .st1, .st2, .st3, .st4, .st5, .st6, .st7 {
+        isolation: isolate;
+      }
+
+      .st1, .st5 {
+        font-family: Helvetica-Bold, Helvetica;
+        font-weight: 700;
+      }
+
+      .st8 {
+        stroke-width: 2px;
+      }
+
+      .st8, .st9, .st10, .st11, .st12 {
+        stroke: #fff;
+      }
+
+      .st13 {
+        fill: #c85c63;
+      }
+
+      .st14 {
+        fill: #7451a6;
+      }
+
+      .st15 {
+        fill: #f8f5fc;
+      }
+
+      .st2 {
+        fill: #8b4a50;
+      }
+
+      .st2, .st3, .st4, .st6 {
+        font-size: 16px;
+      }
+
+      .st2, .st3, .st4, .st6, .st7 {
+        font-family: Helvetica, Helvetica;
+      }
+
+      .st9, .st10, .st16, .st11 {
+        fill: none;
+      }
+
+      .st9, .st16, .st11, .st12 {
+        stroke-width: 4px;
+      }
+
+      .st10 {
+        stroke-width: 3px;
+      }
+
+      .st17 {
+        fill: #2d8a67;
+      }
+
+      .st18 {
+        fill: #e6edf9;
+      }
+
+      .st3 {
+        fill: #3d6b58;
+      }
+
+      .st16 {
+        stroke: #9a83ba;
+      }
+
+      .st16, .st11 {
+        stroke-linejoin: round;
+      }
+
+      .st16, .st11, .st12 {
+        stroke-linecap: round;
+      }
+
+      .st19 {
+        fill: #fbe9e8;
+      }
+
+      .st4, .st7 {
+        fill: #5c4775;
+      }
+
+      .st20 {
+        fill: #e9dff7;
+      }
+
+      .st21 {
+        fill: #5274b8;
+      }
+
+      .st5 {
+        fill: #30263d;
+        font-size: 23px;
+      }
+
+      .st6 {
+        fill: #4d5e85;
+      }
+
+      .st7 {
+        font-size: 18px;
+      }
+    </style>
+  </defs>
+  <rect class="st15" y="0" width="1200" height="420" rx="28" ry="28"/>
+  <text class="st1" transform="translate(331.92 58)"><tspan x="0" y="0">DISEÑO CENTRADO EN EL USUARIO</tspan></text>
+  <g>
+    <rect class="st20" x="45" y="115" width="240" height="210" rx="22" ry="22"/>
+    <circle class="st14" cx="165" cy="165" r="25"/>
+    <circle class="st9" cx="158" cy="158" r="8"/>
+    <path class="st12" d="M165,165l12,12"/>
+    <text class="st5" transform="translate(101.71 225)"><tspan x="0" y="0">1. Observar</tspan></text>
+    <text class="st4" transform="translate(88.07 258)"><tspan x="0" y="0">Identificar dificultades</tspan></text>
+    <text class="st4" transform="translate(89.84 282)"><tspan x="0" y="0">y necesidades reales</tspan></text>
+    <path class="st16" d="M292,220h30l-10-10M322,220l-10,10"/>
+    <rect class="st18" x="335" y="115" width="240" height="210" rx="22" ry="22"/>
+    <circle class="st21" cx="455" cy="165" r="25"/>
+    <path class="st10" d="M443,157c8-9.33,16-9.33,24,0-8,16-16,16-24,0M445,173h20"/>
+    <text class="st5" transform="translate(373.84 225)"><tspan x="0" y="0">2. Comprender</tspan></text>
+    <text class="st6" transform="translate(379.86 258)"><tspan x="0" y="0">Entrevistar y conocer</tspan></text>
+    <text class="st6" transform="translate(369.17 282)"><tspan x="0" y="0">expectativas del usuario</tspan></text>
+    <path class="st16" d="M582,220h30l-10-10M612,220l-10,10"/>
+    <rect class="st0" x="625" y="115" width="240" height="210" rx="22" ry="22"/>
+    <circle class="st17" cx="745" cy="165" r="25"/>
+    <rect class="st10" x="732" y="151" width="26" height="28" rx="3" ry="3"/>
+    <path class="st8" d="M738,159h14M738,166h14M738,173h9"/>
+    <text class="st5" transform="translate(690.03 225)"><tspan x="0" y="0">3. Diseñar</tspan></text>
+    <text class="st3" transform="translate(677.85 258)"><tspan x="0" y="0">Crear una solución</tspan></text>
+    <text class="st3" transform="translate(685.86 282)"><tspan x="0" y="0">clara y accesible</tspan></text>
+    <path class="st16" d="M872,220h30l-10-10M902,220l-10,10"/>
+    <rect class="st19" x="915" y="115" width="240" height="210" rx="22" ry="22"/>
+    <circle class="st13" cx="1035" cy="165" r="25"/>
+    <path class="st11" d="M1022,165l9,9,18-20"/>
+    <text class="st5" transform="translate(985.15 225)"><tspan x="0" y="0">4. Probar</tspan></text>
+    <text class="st2" transform="translate(971.41 258)"><tspan x="0" y="0">Escuchar, evaluar</tspan></text>
+    <text class="st2" transform="translate(966.52 282)"><tspan x="0" y="0">y mejorar de nuevo</tspan></text>
+  </g>
+  <text class="st7" transform="translate(257.32 375)"><tspan x="0" y="0">El proceso es iterativo: los comentarios de las personas ayudan a mejorar la solución.</tspan></text>
+</svg>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Wiki educativa: Diseño Centrado en el Usuario y experiencia de usuario.">
+  <title>WikiDesign | Diseño centrado en el usuario</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&family=Nunito+Sans:wght@400;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <div class="browser-bar" aria-hidden="true">
+    <div class="address-pill"></div>
+    <div class="window-dots"><span></span><span></span><span></span></div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="WikiDesign, inicio">
+      <span class="brand-symbol">W<span>✦</span></span>
+      <span>Wiki<span class="brand-purple">Design</span><i>✦</i></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+    <nav class="topnav" aria-label="Navegación principal">
+      <a href="#inicio">INICIO</a>
+      <a href="#colabora">COLABORA</a>
+      <a href="#acerca">ACERCA DE NOSOTROS</a>
+    </nav>
+    <form class="search" id="searchForm" role="search">
+      <input id="searchInput" type="search" placeholder="Buscar en la wiki..." aria-label="Buscar en la wiki">
+      <button type="submit" aria-label="Buscar">⌕</button>
+    </form>
+  </header>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="side-section">
+      <h2>TEMAS</h2>
+      <a class="side-link active" href="#inicio"><span>✥</span> EXPERIENCIA DE USUARIO</a>
+      <a class="side-link" href="#problema"><span>◎</span> DISEÑO WEB</a>
+      <a class="side-link" href="#proceso"><span>✧</span> DESIGN THINKING</a>
+      <a class="side-link" href="#dcu"><span>◈</span> DISEÑO CENTRADO EN EL USUARIO</a>
+      <a class="side-link" href="#interfaz"><span>✣</span> DISEÑO DE INTERACCIÓN</a>
+      <a class="side-link" href="#principios"><span>♧</span> ARQUITECTURA DE LA INFORMACIÓN</a>
+      <a class="side-link" href="#prueba"><span>◉</span> DISEÑO DE NAVEGACIÓN</a>
+      <a class="side-link" href="#solucion"><span>◌</span> DISEÑO VISUAL</a>
+    </div>
+    <div class="side-section summary">
+      <h2>SUMARIO</h2>
+      <p>Diseño centrado en el usuario</p>
+      <a href="#problema">01. El problema</a>
+      <a href="#solucion">02. La solución</a>
+      <a href="#dcu">03. ¿Qué es el DCU?</a>
+      <a href="#proceso">04. El proceso</a>
+      <a href="#prueba">05. Prueba de usabilidad</a>
+    </div>
+  </aside>
+
+  <main id="inicio" class="main-content">
+    <section class="page-heading">
+      <p class="eyebrow">WIKIDESIGN · GUÍA PARA ESTUDIANTES</p>
+      <h1>DISEÑO CENTRADO<br class="mobile-break"> EN EL USUARIO</h1>
+      <p class="subtitle">El botón que nadie encontraba</p>
+    </section>
+
+    <section class="intro-grid" id="problema">
+      <article class="light-card intro-card searchable">
+        <span class="section-kicker">01 / EL PROBLEMA</span>
+        <h2>¿Alguna vez buscaste un botón que simplemente no encontrabas?</h2>
+        <p>Imagina entrar a una página y no saber dónde hacer clic para continuar. Los botones se confunden con el fondo, las opciones están desordenadas y una tarea sencilla se convierte en una experiencia frustrante.</p>
+        <p>Cuando una interfaz no considera las necesidades de las personas, el problema no es el usuario: es el diseño. El Diseño Centrado en el Usuario (DCU) ayuda a detectar estas dificultades y a crear soluciones más claras, útiles y accesibles.</p>
+      </article>
+      <figure class="visual-frame hero-visual">
+        <img data-zoom data-title="La interfaz inicial" src="img/01_interfaz_problema.svg" width="800" height="800" alt="Ejemplo de una interfaz con dificultades de uso" onerror="this.onerror=null;this.src='img/01_interfaz_problema.jpg'">
+        <figcaption>La interfaz inicial: encontrar la acción principal no es sencillo.</figcaption>
+        <div class="media-actions">
+          <button type="button" class="zoom-btn" data-open="0">⤢ Ver imagen ampliada</button>
+          <a class="nav-chip" href="#solucion">Ver la solución ↓</a>
+        </div>
+      </figure>
+    </section>
+    <nav class="section-nav" aria-label="Navegación de sección"><a class="back-top" href="#inicio">↑ Volver arriba</a><a href="#solucion">02. La solución ↓</a></nav>
+
+    <section class="content-section searchable" id="solucion">
+      <div class="section-title">
+        <span class="section-kicker">02 / LA SOLUCIÓN</span>
+        <h2>Pequeños cambios, una mejor experiencia</h2>
+        <p>Una jerarquía visual clara, etiquetas comprensibles y botones fáciles de reconocer ayudan a que las personas completen sus tareas sin confusión.</p>
+      </div>
+      <div class="comparison-grid">
+        <article class="comparison-card">
+          <div class="card-label problem-label">ANTES · CONFUSIÓN</div>
+          <img data-zoom data-title="Antes · Confusión" loading="lazy" decoding="async" width="800" height="800" src="img/01_interfaz_problema.svg" alt="Interfaz original con problemas de usabilidad" onerror="this.onerror=null;this.src='img/01_interfaz_problema.jpg'">
+          <h3>¿Dónde debo hacer clic?</h3>
+          <p>La acción principal no destaca y la persona debe invertir más tiempo en encontrarla.</p>
+          <div class="media-actions"><button type="button" class="zoom-btn" data-open="1">⤢ Ver ampliada</button><a class="nav-chip" href="#solucion-despues">Ver el después →</a></div>
+        </article>
+        <article class="comparison-card" id="solucion-despues">
+          <div class="card-label solution-label">DESPUÉS · CLARIDAD</div>
+          <img data-zoom data-title="Después · Claridad" loading="lazy" decoding="async" width="800" height="800" src="img/02_interfaz_mejorada.svg" alt="Interfaz mejorada con una acción principal clara" onerror="this.onerror=null;this.src='img/02_interfaz_mejorada.jpg'">
+          <h3>Ahora sí es evidente</h3>
+          <p>El botón destaca, el lenguaje es directo y el recorrido resulta más fácil de entender.</p>
+          <div class="media-actions"><button type="button" class="zoom-btn" data-open="2">⤢ Ver ampliada</button><a class="nav-chip" href="#solucion">← Ver el antes</a></div>
+        </article>
+      </div>
+      <nav class="section-nav" aria-label="Navegación de sección"><a href="#problema">← Anterior</a><a class="back-top" href="#inicio">↑ Volver arriba</a><a href="#dcu">03. ¿Qué es el DCU? ↓</a></nav>
+    </section>
+
+    <section class="content-section searchable" id="dcu">
+      <div class="section-title">
+        <span class="section-kicker">03 / CONCEPTO CLAVE</span>
+        <h2>¿Qué es el Diseño Centrado en el Usuario?</h2>
+      </div>
+      <div class="definition-card">
+        <div class="definition-mark">DCU</div>
+        <div>
+          <p>Es una forma de diseñar que pone a las personas en el centro de las decisiones. Para lograrlo, se consideran sus necesidades, objetivos, contexto y dificultades durante todo el desarrollo de una solución.</p>
+          <p class="highlight-line">Diseñar no es adivinar lo que las personas necesitan: es observar, escuchar, probar y mejorar.</p>
+        </div>
+      </div>
+      <figure class="process-figure visual-frame" id="proceso">
+        <img data-zoom data-title="Proceso de Diseño Centrado en el Usuario" loading="lazy" decoding="async" width="1000" height="600" src="img/03_proceso_dcu.svg" alt="Diagrama del proceso de Diseño Centrado en el Usuario" onerror="this.onerror=null;this.src='img/03_proceso_dcu.jpg'">
+        <figcaption>El proceso es iterativo: los resultados de las pruebas permiten volver a mejorar el diseño.</figcaption>
+        <div class="media-actions"><button type="button" class="zoom-btn" data-open="3">⤢ Ver diagrama ampliado</button><a class="nav-chip" href="#principios">Ver cómo aplicarlo ↓</a></div>
+      </figure>
+      <nav class="section-nav" aria-label="Navegación de sección"><a href="#solucion">← Anterior</a><a class="back-top" href="#inicio">↑ Volver arriba</a><a href="#principios">04. Cómo aplicarlo ↓</a></nav>
+    </section>
+
+    <section class="content-section searchable" id="principios">
+      <div class="section-title">
+        <span class="section-kicker">04 / CÓMO APLICARLO</span>
+        <h2>Cuatro pasos para diseñar pensando en las personas</h2>
+      </div>
+      <div class="steps-grid">
+        <article class="step-card"><span>01</span><h3>Observar</h3><p>Conocer quién usará el producto y qué necesita lograr.</p></article>
+        <article class="step-card"><span>02</span><h3>Comprender</h3><p>Identificar problemas, contexto y obstáculos durante la tarea.</p></article>
+        <article class="step-card"><span>03</span><h3>Diseñar</h3><p>Proponer una interfaz clara y crear un prototipo que pueda probarse.</p></article>
+        <article class="step-card"><span>04</span><h3>Evaluar</h3><p>Observar a usuarios reales, escuchar sus comentarios y ajustar la propuesta.</p></article>
+      </div>
+      <nav class="section-nav" aria-label="Navegación de sección"><a href="#dcu">← Anterior</a><a class="back-top" href="#inicio">↑ Volver arriba</a><a href="#prueba">05. Prueba de usabilidad ↓</a></nav>
+    </section>
+
+    <section class="content-section test-section searchable" id="prueba">
+      <div class="section-title">
+        <span class="section-kicker">05 / PONLO A PRUEBA</span>
+        <h2>La prueba de usabilidad</h2>
+        <p>Una prueba permite descubrir si una persona puede completar una tarea con facilidad. No se trata de evaluar al usuario, sino de descubrir qué podemos mejorar en el diseño.</p>
+      </div>
+      <div class="test-panel">
+        <div class="test-icon">↗</div>
+        <div>
+          <h3>Prueba una tarea sencilla</h3>
+          <p>Imagina que necesitas enviar un formulario. ¿Identificas el botón correcto rápidamente? ¿El texto te explica qué ocurrirá después? Si dudas, esa reacción es una pista para mejorar.</p>
+          <button class="primary-button" id="checkButton">Ver lista de comprobación</button>
+        </div>
+      </div>
+      <div class="checklist" id="checklist" hidden>
+        <h3>Lista rápida de usabilidad</h3>
+        <label><input type="checkbox"> El botón principal se distingue del resto.</label>
+        <label><input type="checkbox"> Las etiquetas usan palabras claras.</label>
+        <label><input type="checkbox"> Puedo saber qué ocurrirá al hacer clic.</label>
+        <label><input type="checkbox"> La página se entiende en computadora y celular.</label>
+      </div>
+      <nav class="section-nav" aria-label="Navegación de sección"><a href="#principios">← Anterior</a><a class="back-top" href="#inicio">↑ Volver arriba</a><a href="#colabora">Resumen ↓</a></nav>
+    </section>
+
+    <section class="closing-card searchable" id="colabora">
+      <div>
+        <span class="section-kicker">EN RESUMEN</span>
+        <h2>Una buena interfaz no obliga a pensar dónde hacer clic.</h2>
+        <p>El mejor diseño acompaña a las personas, facilita sus objetivos y mejora a partir de lo que aprendemos al observarlas.</p>
+      </div>
+      <a class="text-link" href="#inicio">Volver al inicio ↑</a>
+    </section>
+  </main>
+
+  <footer class="footer" id="acerca">
+    <div class="footer-brand">Wiki<br><span>Design</span><i>✦</i></div>
+    <div class="footer-copy">
+      <p>© 2026 WikiDesign. Todos los derechos reservados.</p>
+      <small>El contenido de este sitio ha sido desarrollado con fines educativos y académicos. Los textos, imágenes y recursos utilizados pertenecen a sus respectivos autores y se emplean únicamente como material de consulta y aprendizaje.</small>
+    </div>
+  </footer>
+  <a class="to-top" id="toTop" href="#inicio" aria-label="Volver arriba" hidden>↑</a>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de imágenes" hidden>
+    <button type="button" class="lb-close" id="lbClose" aria-label="Cerrar visor">✕</button>
+    <button type="button" class="lb-nav lb-prev" id="lbPrev" aria-label="Imagen anterior">‹</button>
+    <figure class="lb-figure">
+      <img id="lbImg" src="" alt="">
+      <figcaption id="lbCaption"></figcaption>
+    </figure>
+    <button type="button" class="lb-nav lb-next" id="lbNext" aria-label="Imagen siguiente">›</button>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 720 900">
+  <!-- Generator: Adobe Illustrator 29.8.11, SVG Export Plug-In . SVG Version: 2.1.1 Build 11)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-family: Arial-BoldMT, Arial;
+        font-size: 25px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9 {
+        isolation: isolate;
+      }
+
+      .st0, .st1, .st3, .st6, .st9 {
+        font-weight: 700;
+      }
+
+      .st0, .st3, .st6, .st10 {
+        fill: #fff;
+      }
+
+      .st11 {
+        fill: #f5f0ff;
+      }
+
+      .st1 {
+        font-size: 30px;
+      }
+
+      .st1, .st3, .st6, .st9 {
+        font-family: Helvetica-Bold, Helvetica;
+      }
+
+      .st1, .st7 {
+        fill: #4a326b;
+      }
+
+      .st2 {
+        fill: #756b80;
+      }
+
+      .st2, .st4 {
+        font-size: 18px;
+      }
+
+      .st2, .st4, .st5, .st7, .st8 {
+        font-family: Helvetica, Helvetica;
+      }
+
+      .st12 {
+        stroke: #da0301;
+        stroke-dasharray: 7 8;
+        stroke-linecap: round;
+        stroke-width: 5px;
+      }
+
+      .st13 {
+        fill: #29243a;
+      }
+
+      .st3, .st8 {
+        font-size: 15px;
+      }
+
+      .st4, .st9 {
+        fill: #30263d;
+      }
+
+      .st14 {
+        fill: #da0301;
+      }
+
+      .st15 {
+        fill: #ffb0b0;
+      }
+
+      .st5 {
+        font-size: 14px;
+      }
+
+      .st5, .st8 {
+        fill: #5c4775;
+      }
+
+      .st16 {
+        fill: #f5f3f8;
+      }
+
+      .st16, .st10 {
+        stroke: #d7cde3;
+      }
+
+      .st6, .st7 {
+        font-size: 20px;
+      }
+
+      .st17 {
+        fill: #6e627c;
+      }
+
+      .st18 {
+        fill: #f5f7f6;
+      }
+
+      .st9 {
+        font-size: 22px;
+      }
+
+      .st19 {
+        fill: #133750;
+      }
+    </style>
+  </defs>
+  <rect class="st11" width="720" height="900" rx="36" ry="36"/>
+  <text class="st1" transform="translate(48 72)"><tspan x="0" y="0">EL BOTÓN QUE NADIE ENCONTRABA</tspan></text>
+  <rect class="st13" x="170" y="112" width="380" height="720" rx="42" ry="42"/>
+  <rect class="st19" x="188" y="145" width="344" height="652" rx="24" ry="24"/>
+  <path class="st17" d="M305,125h110c2.76,0,5,2.24,5,5h0c0,2.76-2.24,5-5,5h-110c-2.76,0-5-2.24-5-5h0c0-2.76,2.24-5,5-5Z"/>
+  <text class="st6" transform="translate(218 190)"><tspan x="0" y="0">Compra tu boleto</tspan></text>
+  <rect class="st18" x="215" y="215" width="290" height="90" rx="14" ry="14"/>
+  <text class="st8" transform="translate(235 248)"><tspan x="0" y="0">ORIGEN</tspan></text>
+  <text class="st9" transform="translate(235 276)"><tspan x="0" y="0">Ciudad de México</tspan></text>
+  <rect class="st15" x="215" y="322" width="290" height="90" rx="14" ry="14"/>
+  <text class="st8" transform="translate(235 355)"><tspan x="0" y="0">DESTINO</tspan></text>
+  <text class="st9" transform="translate(235 383)"><tspan x="0" y="0">Puebla</tspan></text>
+  <rect class="st16" x="215" y="429" width="138" height="68" rx="12" ry="12"/>
+  <text class="st5" transform="translate(230 455)"><tspan x="0" y="0">FECHA</tspan></text>
+  <text class="st4" transform="translate(230 480)"><tspan x="0" y="0">15 oct.</tspan></text>
+  <rect class="st16" x="367" y="429" width="138" height="68" rx="12" ry="12"/>
+  <text class="st5" transform="translate(382 455)"><tspan x="0" y="0">ASIENTO</tspan></text>
+  <text class="st4" transform="translate(382 480)"><tspan x="0" y="0">12A</tspan></text>
+  <rect class="st10" x="215" y="514" width="290" height="68" rx="12" ry="12"/>
+  <text class="st2" transform="translate(235 555)"><tspan x="0" y="0">Resumen de compra</tspan></text>
+  <rect class="st10" x="215" y="596" width="290" height="68" rx="12" ry="12"/>
+  <text class="st2" transform="translate(235 637)"><tspan x="0" y="0">Información adicional</tspan></text>
+  <path class="st12" d="M490,685v43"/>
+  <circle class="st14" cx="489.34" cy="737.34" r="21.34"/>
+  <text class="st0" transform="translate(485.24 746)"><tspan x="0" y="0">!</tspan></text>
+  <rect class="st14" x="215" y="754" width="290" height="30" rx="8" ry="8"/>
+  <text class="st3" transform="translate(219.31 775)"><tspan x="0" y="0">CONTINUAR (DIFÍCIL DE ENCONTRAR)</tspan></text>
+  <text class="st7" transform="translate(180.45 865)"><tspan x="0" y="0">Problema: la acción principal no destaca</tspan></text>
+</svg>
